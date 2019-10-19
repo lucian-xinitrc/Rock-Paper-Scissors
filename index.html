@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GAME</title>
+	<meta name= "viewport" charset="UTF-8" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="data/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="icon" href="data/icon.ico">
+	<script src="data/main.js"></script>
+</head>
+<body>
+	<h1>ROCK PAPER SCISSORS</h1>
+	<form class="game">
+		<h1>Choose...</h1>
+		<div class="imgform" id="table1">
+			<input id="fog" type="button" style="background: url(data/piatra.jpg);background-position: center;background-repeat: no-repeat;" onclick="piatraf()" >
+			<input id="fog2" type="button" style="background: url(data/foarfeca.jpg);background-position: center;background-repeat: no-repeat;" onclick="foarfecaf()" >
+			<input id="fog3" type="button" style="background: url(data/hartie.jpg);background-position: center;background-repeat: no-repeat;" onclick="hartief()" >
+		</div>
+		<div class="winner" id="table2">
+			<h1 id="hd">Winner</h1>
+			<input id="fog4" type="button" style="background: url(data/piatra.jpg);background-position: center;background-repeat: no-repeat;" onclick="none()" >
+			<h1 id="hf">Loser</h1>
+			<input id="fog5" type="button" style="background: url(data/foarfeca.jpg);background-position: center;background-repeat: no-repeat;" >
+		</div>
+	</form>
+</body>
+</html>
