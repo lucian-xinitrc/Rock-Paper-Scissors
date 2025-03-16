@@ -9,7 +9,7 @@ The project is designed as a single-page application, where the game and its res
 ## $ languages used
 The website was built using the following technologies:
 
-![HTML, CSS, JavaScript, Vim](https://skillicons.dev/icons?i=html,css,javascript,sublime)
+![HTML, CSS, JavaScript, Sublime](https://skillicons.dev/icons?i=html,css,javascript,sublime)
 
 ## $ license
 This project is for personal use and learning purposes. Feel free to explore and modify it as needed. ❤️
